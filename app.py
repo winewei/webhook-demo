@@ -21,4 +21,4 @@ class Webhook(Resource):
 api.add_resource(Webhook, '/api/v1/webhook')
 
 if __name__ == '__main__':
-    app.run(debug=False, port=15002)
+    app.run(debug=False, port=5000)
